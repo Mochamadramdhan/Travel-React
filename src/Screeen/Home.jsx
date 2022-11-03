@@ -1,9 +1,11 @@
 import React from 'react'
 import IconBali from './img/IconBali.png'
+import { useNavigate } from 'react-router-dom'
 import './Style.css'
 
 
 export default function Home() {
+  const navigate = useNavigate ()
   return (
     <><body>
     <div class="container bg-index">
@@ -14,8 +16,8 @@ export default function Home() {
                 <h1 >Travel to Bali</h1>
                 <p class="index">Cheapest and  Easier</p>
                 <div class="container-button-index">
-                    <a href="about.html" class="button about">About Us</a>
-                    <a href="reservation.html" class="button reservation">Reservation</a>
+                  <div onClick={()=>navigate("About")} class="button about">About Us</div>
+                  <div onClick={()=>navigate("Users")} class="button reservation">Reservation</div>
             </div>
             </div>
     </div>
