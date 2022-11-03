@@ -8,13 +8,15 @@ export default function About() {
     <>
 
 <body>
-        <div class="container bg-about">
-            <div class="squere">
+        <div className='container bg-about'>
+          <div bg-about>
+            <div className='squere'>
                 
-                <img src={back} onClick={()=>navigate("/")}  alt="Icon.Back" class="back"/>
-                <h1 class="aboutUs">About Us</h1>
-                <p class="p-about">More than 10 years, Arkademy Travel Services has grow at a steady pace and become one of Indonesia's leading travel agent offering a complete travel solution for both leisure and business travels. The company has over 500 staff within 24 branches across the country</p>
+                <img src={back} onClick={()=>navigate("/")}  alt="Icon.Back" className='back'/>
+                <h1 className='aboutUs'>About Us</h1>
+                <p className='p-about'>More than 10 years, Arkademy Travel Services has grow at a steady pace and become one of Indonesia's leading travel agent offering a complete travel solution for both leisure and business travels. The company has over 500 staff within 24 branches across the country</p>
                 
+            </div>
             </div>
             
         </div>
