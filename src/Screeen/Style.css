@@ -1,0 +1,237 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*style*/
+body, html{
+    height: 100%;
+    
+}
+.container{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.squere{
+    background-color: rgba(19, 11, 35, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.back{
+    position: absolute;
+    left: 10%;
+    background-repeat: no-repeat;
+}
+/* responsive */
+@media only screen and ( min-width: 0px) {
+    .container-button-index{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        
+    }
+    .container-phone{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .form{
+        width: 60%;
+        position: relative;
+    }
+  }
+  
+@media only screen and (min-width: 1000px) {
+    .container-button-index{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 30%;
+    
+    }
+    .container-phone{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .container-phone .Phone{
+        margin-right: 16px;
+    }
+    .form{
+        width: 30%;
+        /* background-color: rgb(190, 24, 24); */
+    }
+
+
+  }
+
+  /*  */
+h1{
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 84px;
+    text-align: center;
+    color: #FCB371;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button{
+    box-sizing: border-box;
+    padding: 16px;
+    width: 100%;
+    height: 46px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+/* index */
+.bg-index{
+    background-image: url(img/ImageBackground.png);
+}
+
+h1.h1-White{
+    color: #FFFFFF;
+    top: 223px;
+}
+.button.about{
+    border: 2px solid #FCB371;
+    color: #FCB371;
+    margin: 20px;
+    text-align: center;
+}
+.button.reservation{
+    background: #FCB371;
+    color: #FFFFFF;
+    text-align: center;
+}
+p.index{
+    width: 124px;
+    height: 17px;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 50px;
+}
+
+/* about */
+.bg-about{
+    background-image: url(img/bg1.png);
+
+}
+h1.aboutUs{
+     line-height: 200px;
+}
+.p-about{
+    max-width: 768px;
+    font-size: 28px;
+    line-height: 33px;
+    margin-top: 20px;
+}
+
+/* Reservation */
+h1.Reservation {
+    margin-bottom: 15%;
+    /* margin-bottom: 50px; */
+}
+.bg-reservation{
+    background-image: url(img/bg2.png);
+    background-size: cover;
+}
+input{
+    box-sizing: border-box;
+    padding: 16px;
+    width: 100%;
+    height: 46px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+textarea{
+    box-sizing: border-box;
+    padding: 16px;
+    width: 100%;
+    height: 120px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button-submit{
+    display: flex;
+    padding: 16px;
+    background: #FCB371;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-style: normal;
+    font-size: 12px;
+    justify-content: center;
+    
+}

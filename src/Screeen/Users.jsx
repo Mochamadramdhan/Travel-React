@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Users() {
+export default function users() {
   return (
-    <div>Users</div>
+    <div>users</div>
   )
 }
