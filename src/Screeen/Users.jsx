@@ -6,7 +6,7 @@ export default function Users() {
     const navigate = useNavigate ()
   return (
 <>
-    <div className='container'></div>
+    <div className='container'>
         <div className='bg-reservation'>
             <div className="opacity">
                 <img src={back} onClick={()=>navigate("/")}  alt="Icon.Back" className='back'/>
@@ -22,7 +22,9 @@ export default function Users() {
                         <textarea name="biografi" placeholder="Explain about your trip"></textarea>
                     <div onClick={()=>navigate("#")} className='button-submit'>Submit</div>
             </div>
+
         </div>
+    </div>
     </div>
 </>
   )
