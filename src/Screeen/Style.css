@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -58,16 +59,17 @@ body, html{
     position: relative;
     background-color: rgba(19, 11, 35, 0.6);
     background-size: 100% 100%;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 90vh;
+    min-height: 100vh;
 
 }
 .back{
     position: absolute;
-    left: 10%;
+    top: 10%;
+    left: 5%;
     background-repeat: no-repeat;
     margin-top: 10px;
 }
@@ -144,6 +146,9 @@ p{
     justify-content: center;
 }
 /* index */
+.IconBali{
+    margin-top: 10%;
+}
 h1.h1-White{
     color: #FFFFFF;
     top: 223px;
@@ -178,6 +183,7 @@ p.index{
 }
 h1.aboutUs{
      line-height: 200px;
+     padding-top: 10%;
 }
 .p-about{
     max-width: 768px;
@@ -232,4 +238,5 @@ textarea{
 }
 .form .Reservation{
     margin-bottom: 20%;
+    margin-top: 20%;
 }
