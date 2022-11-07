@@ -68,7 +68,7 @@ body, html{
 }
 .back{
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 5%;
     background-repeat: no-repeat;
     margin-top: 10px;
@@ -196,7 +196,8 @@ p.index{
 }
 h1.aboutUs{
      line-height: 200px;
-     padding-top: 10%;
+     margin-top: 0%;
+     
 }
 
 /* Reservation */
