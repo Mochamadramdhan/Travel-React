@@ -11,7 +11,7 @@ export default function About() {
         <div className="opacity">
           <img src={back} onClick={()=>navigate("/")}  alt="Icon.Back" className='back'/>
           <h1 className='aboutUs'>About Us</h1>
-          <p className='p-about'>More than 10 years, Arkademy Travel Services has grow at a steady pace and become one of Indonesia's leading travel agent offering a complete travel solution for both leisure and business travels. The company has over 500 staff within 24 branches across the country
+          <p className='p-about'>More than 10 years, Ramdans Travel Services has grow at a steady pace and become one of Indonesia's leading travel agent offering a complete travel solution for both leisure and business travels. The company has over 500 staff within 24 branches across the country
           </p>
         </div>
       </div>
